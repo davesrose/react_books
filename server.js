@@ -18,7 +18,7 @@ mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
 
 if(process.env.NODE_ENV == 'production'){
-  mongoose.connect('mongodb://heroku_mkmpv55c:auvt3hlid14hlfg7bqacad2v1h@ds013946.mlab.com:13946/heroku_mkmpv55c');
+  mongoose.connect('mongodb://heroku_mkmpv55c:auvt3hlid14h1fg7bqacad2v1h@ds013946.mlab.com:13946/heroku_mkmpv55c');
 }
 else{
   mongoose.connect('mongodb://localhost/news-scraper');
